@@ -1,0 +1,197 @@
+.clear-box{
+	clear:both;
+	overflow: hidden;
+}
+body{
+	margin-top:0;
+	padding-top:0;
+}
+
+.header{
+	height:140px;
+	margin: 0 auto;
+	width:57.8%;
+	background-color: rgb(247,148,29);
+}
+@media only screen and (max-width:1000px){
+	.header{
+		width: 100%;
+		height: auto;
+	}}
+@media only screen and (max-width:750px){	
+	#buttomHeader li{
+		float: none;
+	}
+	#header{
+		width:100%;
+		height: auto;}
+	#search{float: none;}
+	}
+
+#header{
+	
+	background-color:#65371C;
+	height:116px;
+	
+}
+#topHeader{
+	background-color:#65371C;
+	/*margin:0 auto;*/
+	
+}
+#companyLogo{
+	float:right;
+}
+#search{
+	padding-right: 8.5%;
+	padding-top:6px;
+	background-color:#65371C;
+	float:right;
+}
+#searchTitle{
+	margin-left:5px;
+	padding-top:6px;
+	background-color:#65371C;
+	float: right;
+}
+#searchButton{
+	padding-right:5px;
+	padding-top:6px;
+	background-color:#65371C;
+	
+	float: left;
+}
+#whiteLine{
+	background-color:#65371C;
+	
+	float: right;
+	margin-left:5px;
+	margin-right:5px;
+}
+#language{
+	padding-top:10px;
+	background-color:#65371C;
+	float: right;
+}
+#englishButton{
+	padding-top:6px;
+	background-color:#65371C;
+}
+#service{
+	padding-top:6px;
+	background-color:#65371C;
+	float: right;
+}
+#buttomHeader ul{
+	padding-top:10%;
+	
+}
+#buttomHeader li{
+	
+	float:right;
+	list-style:none;
+	padding-right:6px;
+	padding-left:6px;
+}
+#button1 {
+	width:52px;
+	height:33px;
+	
+}
+#button2{
+	width:103px;
+	height:33px;
+	
+}
+#button3{
+	width:69px;
+	height:33px;
+	
+}
+#button4{
+	width:89px;
+	height:33px;
+	
+}
+#button5{
+	width:74px;
+	height:33px;
+	
+}
+#button6{
+	width:70px;
+	height:33px;
+	
+}
+#button7{
+	width:65px;
+	height:33px;
+	
+}
+#banner1{
+	width:85%;
+	margin: 0 auto;
+}
+#banner{
+	margin: 0 auto;
+}
+#banner img{
+	margin: 0 auto;
+}
+@media only screen and (max-width:1150px){
+	#banner img{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+.arts{
+	margin: 0 auto;
+	width: 49%;
+}
+h3{
+	direction: rtl;
+}
+#leftArt{
+	/*width:217px;*/
+	float: left;
+}
+#leftText{
+	
+	text-align: right;
+}
+#leftImg{}
+#centerArt{
+	/*width:216px;*/
+	float: left;
+}
+#centerText{
+	
+	text-align: right;
+}
+#centerImg{}
+#rightArt{
+	/*width:205px;*/
+	float: left;
+}
+#rightText{
+	text-align: right;
+}
+#rightImg{}
+#homeLine{
+	float: left;
+	
+}
+footer{
+	margin: 0 auto;
+	width: 49%;
+}
+#footer{
+	float:right;
+	text-align: right;
+	direction: rtl;
+}
+#footer1{
+	float:left;
+	text-align: right;
+	direction: rtl;
+}
